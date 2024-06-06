@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flexbox-container {
+    width: 1050px;
+    margin: auto;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    width: calc(100% / 4 - 10px);
+    height: 350px;
+    background: gray;
+
+}
+
+.box:first-child {
+    background: url(https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box:nth-child(2) {
+    background: url(https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying-teeth.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box:nth-child(3) {
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/002/098/203/small_2x/silver-tabby-cat-sitting-on-green-background-free-photo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box:nth-child(4) {
+    background: url(https://hips.hearstapps.com/hmg-prod/images/cute-photos-of-cats-looking-at-camera-1593184780.jpg?crop=0.6672958942897593xw:1xh;center,top&resize=980:*);
+    background-position: center;
+    background-size: cover;
+}
+
+.box:nth-child(5) {
+    background: url(https://nationalzoo.si.edu/sites/default/files/styles/wide/public/animals/20110217-116mm.jpg?itok=U5y7Rywn);
+    background-position: center;
+    background-size: cover;
+}
+
+.box:nth-child(6) {
+    background: url(https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box:nth-child(7) {
+    background: url(https://images.saymedia-content.com/.image/t_share/MTk2NzY3MjA5ODc0MjY5ODI2/top-10-cutest-cat-photos-of-all-time.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.box:nth-child(8) {
+    background: url(https://img.freepik.com/free-photo/close-up-kitten-surrounded-by-plants_23-2150782339.jpg);
+    background-position: center;
+    background-size: cover;
+}

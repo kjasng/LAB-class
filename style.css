@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#borderpage {
+  margin: 5% 30% 5% 30%;
+  height: 100%;
+  position: absolute;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+  align-items: flex-end;
+}
+
+#bodypage {
+  display: flex;
+  border: 2px solid;
+  border-top-width: 0px;
+}
+
+.content {
+  width: 100%;
+  justify-content: start;
+  border-left: 2px solid;
+}
+
+#borderpage img {
+  width: 100px;
+  height: 100px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+}
+
+.hr1 {
+  margin-top: 70px;
+}
+
+.hr2 {
+  margin-top: 15px;
+}
+
+.hr1 {
+  margin-top: 60px;
+}
+
+.img-left {
+  float: left;
+}
+
+.img-right {
+  float: right;
+}
+
+h3 {
+  background-color: rgb(7, 113, 219);
+  color: white;
+  font-weight: lighter;
+}
+
+h1 {
+  color: blue;
+  font-weight: lighter;
+}
+
+h4 {
+  color: dodgerblue;
+  font-weight: lighter;
+}
+
+.h3-dl {
+  margin-top: 40px;
+}
+
+.slidebar ul {
+  list-style: circle;
+  margin-left: 35px;
+}
+
+.content ul {
+  margin: 20px 0px 40px 30px;
+}
+
+.p-thuocla {
+  margin-bottom: 10px;
+}
+
+.back {
+  position: absolute;
+  right: 0;
+}
+
+.suckhoe {
+  position: relative;
+}
+
+.dulich {
+  position: relative;
+}
+
+.amnhac {
+  position: relative;
+}
