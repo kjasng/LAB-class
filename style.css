@@ -4,17 +4,29 @@
   border: 0;
 }
 
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .button {
-  border: 1px solid rgba(17, 133, 244, 0.8);
+  border: 2px solid rgba(17, 133, 244, 0.8);
   text-decoration: none;
   font-size: 20px;
   padding: 20px;
+  border-radius: 20px;
   height: 20px;
-  transition: all 3s ease-in;
   color: black;
+  
+  font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .button:hover {
-  background: rgba(24, 185, 220, 0.8);
+  background: tomato;
+  transition-duration: 3s;
 }
